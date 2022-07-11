@@ -1,7 +1,106 @@
 .K{
-
-    background-image: url();
+    background-image: url(./images/2main.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
 }
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+ul {  margin-left: 20px;
+    width: 80%;
+    display: flex;
+    justify-content: left;
+    margin-top: 20px;
+  
+}
+
+
+.pic {
+    width: 70px;
+    height: 70px;
+    background-color: rgba(213, 43, 43, 0.932);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+}
+
+nav {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: gray;
+}
+
+a:hover {
+    color: red;
+}
+
+.dec {
+    height: 80vh;
+    width: 100%;
+    position: relative;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+#nack {
+    position: absolute;
+    top: 400px;
+    left: 170px;
+    padding: 2px 20px;
+}
+
+footer {
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#for {
+    
+    
+    
+    
+    box-shadow: 1px 1px 3px gray;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    position: fixed;
+    top: 10px;
+    right: 0px;
+    color: red;
+    padding: 10px;
+    
+}
+
+h1 {
+    font-size: x-large;
+}
+
